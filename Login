@@ -1,0 +1,175 @@
+
+
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+	<head>
+		<title>
+			Cartão Generix
+			- Login</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR" />
+		<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE" />
+		<meta content="JavaScript" name="vs_defaultClientScript" />
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema" />
+        <meta name="robots" content="noindex" />
+		<link media="all" href="Geral.css" type="text/css" rel="stylesheet" />
+        <script src="https://www.google.com/recaptcha/api.js?hl=pt-BR" async defer></script>
+	</head>
+	<body>
+		<div id="divGeral">
+			<form name="Form1" method="post" action="./Login.aspx?op=Login" language="javascript" onsubmit="javascript:return WebForm_OnSubmit();" id="Form1" autocomplete="off">
+<input type="hidden" name="__onceClickBtn" id="__onceClickBtn" value="" />
+<input type="hidden" name="__txtStatusMenu" id="__txtStatusMenu" value="A" />
+<input type="hidden" name="CSRF" id="CSRF" value="b4787ded-72eb-479c-8357-cee191833c73" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE_KEY" id="__VIEWSTATE_KEY" value="VIEWSTATE_201.17.98.199_6c08c900-cda4-421f-a8bd-d03f6592c129" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+
+<script type="text/javascript">
+<!--
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</script>
+
+
+<script src="/generix/WebResource.axd?d=9g8N58yjEQu1uRG2tVxKKGD0Rlw4Q6AkqEHaUeAZNddiy_4JoHMG1HdF3Qmbil-6mhQXTdbzK89HyqrRUWb3k9uu44IIbK-eZ3P_3b0MwUY1&amp;t=637453960939909757" type="text/javascript"></script>
+
+<script src='Funcoes.js?v=9' type='text/javascript'></script><script language='JavaScript'>function SetFocus(){   document.Form1['ucUsuarioSenha:txtLoginUsuario'].focus();}window.onload = SetFocus;</script>
+<script src="/generix/WebResource.axd?d=ficsYOzmrQ1aSLQVa6L2M1l-ZElSgF4ZbDBOW9Q7OB7FrNMXE81AQVFpJknPjgqmVSZ7BxeczH9Ncxq2rY3m0MvAm_Kq2Z5BMwCFDjiscsg1&amp;t=637453960939909757" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;setTimeout('Splash();',50);
+return true;
+}
+// -->
+</script>
+
+<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAavVXD1oYELeveMr0vHCmYPqt+JWO6gVp7/XgOzOjZOTesDThJMRrKLiZEE7wzyjCs2gmFp7kXQCzvKT+a7ya9KJGsvkM0mgPyJFFvpN1i6ZioxwXI9Oak15p93CKDkcphGQNeXv3UVuxAmwZYWJfoh4os4Hhj24qdnuFj+y+JSgQ==" />
+				<div id="divTopo">
+				<div id="_ctl0_divCabecalhoMenor" class="clsCabecalhoMenor" style="display:none;">
+	<img class="AbrirMenuCab" alt="Mostrar Menu" src="imagens/abrir_menu_a.gif" onclick="MostrarMenu();"
+		onmouseover="this.src='imagens/abrir_menu_b.gif';" onmouseout="this.src='imagens/abrir_menu_a.gif';">
+	<img class="left" alt="" src="imagens/topo_logo_menor.gif"> <img class="right" alt="" src="imagens/topo_bg_menor.gif">
+</div>
+<div id="_ctl0_divCabecalhoMaior" style="display:block;">
+	<div id="divImgsCabMaior">
+		<img class="FecharMenuCab" alt="Esconder Menu" src="imagens/fechar_menu_a.gif" onclick="EsconderMenu();"
+			onmouseover="this.src='imagens/fechar_menu_b.gif';" onmouseout="this.src='imagens/fechar_menu_a.gif';">
+		<img class="left" alt="" src="imagens/topo_logo.gif"> <img class="right" alt="" src="imagens/topo_bg.gif">
+	</div>
+	
+	<div id="divPerfil" style="width: 180px;">
+		
+	</div>
+	<div id="divMenu">
+		
+	</div>
+</div>
+<div id="divCabMensagem">
+	<span id="_ctl0_lblCabMensagem">Desenvolvimento</span>
+</div>
+
+</div>
+				<div id="divConteudo" style="margin-top:23px; border-top:none;">
+					<h1>ÁREA DE ACESSO RESTRITO</h1>
+					<div headertext="Por favor, corrija os erros abaixo e tente novamente." validationGroup="GrupoErro" id="ValidationSummary" class="clsMsgErro" style="display:none;">
+
+</div>
+					<p>Para prosseguir será necessário que você informe seus dados de usuário.</p>
+					<br clear="all" />
+					
+<div id="divLoginSenha">
+    <div id="ucUsuarioSenha_divLogin" class="clsPrimItem">
+        <label>
+            Login do Usuário</label>
+        <span controltovalidate="ucUsuarioSenha_txtLoginUsuario" focusOnError="t" errormessage="Informe o login do usuário." display="None" validationGroup="GrupoErro" id="ucUsuarioSenha_rfvLoginUsuario" class="clsMsgErro" evaluationfunction="RequiredFieldValidatorEvaluateIsValid" initialvalue="" style="display:none;"></span><br />
+        <input name="ucUsuarioSenha:txtLoginUsuario" type="text" size="20" id="ucUsuarioSenha_txtLoginUsuario" autocomplete="off" style="background-color:#E6EBE6;" />
+    </div>
+    <div class="clsUltItemAlt" id="divSenha">
+        <label>
+            Senha</label>
+        <span controltovalidate="ucUsuarioSenha_txtSenha" focusOnError="t" errormessage="Informe a sua senha." display="None" validationGroup="GrupoErro" id="ucUsuarioSenha_rfvSenha" class="clsMsgErro" evaluationfunction="RequiredFieldValidatorEvaluateIsValid" initialvalue="" style="display:none;"></span>
+        <br />
+        <input name="ucUsuarioSenha:txtSenha" type="password" size="22" id="ucUsuarioSenha_txtSenha" autocomplete="off" style="background-color:#E6EBE6;" />
+        &nbsp;&nbsp;<a id="ucUsuarioSenha_lnkRecuperaSenha" href="javascript:__doPostBack(&#39;ucUsuarioSenha$lnkRecuperaSenha&#39;,&#39;&#39;)">Esqueci a senha</a>
+    </div>
+    <div class="alignRight" id="divBtnLogin">
+        <input type="submit" name="ucUsuarioSenha:btnLogin" value="      Login      " language="javascript" onclick="if (typeof(Page_ClientValidate) == &#39;function&#39;) { if(Page_ClientValidate()) { document.getElementsByName(&#39;__onceClickBtn&#39;).item(0).setAttribute(&#39;name&#39;,this.getAttribute(&#39;name&#39;)); this.disabled = true; this.value = &#39;Aguarde...&#39;;this.form.submit();setTimeout(&#39;Splash();&#39;,50); }} else { document.getElementsByName(&#39;__onceClickBtn&#39;).item(0).setAttribute(&#39;name&#39;,this.getAttribute(&#39;name&#39;)); this.disabled = true; this.value = &#39;Aguarde...&#39;;this.form.submit();setTimeout(&#39;Splash();&#39;,50); }" id="ucUsuarioSenha_btnLogin" class="clsBotao" />
+        
+        <div style="display: none">
+            <input type="submit" name="ucUsuarioSenha:btnRedirect" value="Este botão não faz nada. Apenas para redirecionar a página." id="ucUsuarioSenha_btnRedirect" style="height:0px;width:0px;" />
+        </div>
+    </div>
+</div>
+<span focusOnError="t" display="None" validationGroup="GrupoErro" id="ucUsuarioSenha_CustomValidatorSenha" class="clsMsgErro" evaluationfunction="CustomValidatorEvaluateIsValid" style="display:none;"></span>
+
+					<span focusOnError="t" display="None" validationGroup="GrupoErro" id="CustomValidatorPagina" class="clsMsgErro" evaluationfunction="CustomValidatorEvaluateIsValid" style="display:none;"></span>
+                    <div id="divRecaptcha" class="g-recaptcha" data-sitekey="6LdHtosaAAAAAFXX73MUIQASQnYG3QVitclAofbu"></div>
+				</div>
+				<div id="divRodape">
+				
+<div id="divLinksRodape">
+    <ul>
+        <li><a href='http://desenv1.algorix.com/generix/atend/logincentral.aspx' target="_blank">
+            Auto-atendimento</a> </li>
+        <li><a href='http://www.algorix.com' target="_blank">
+            Cartão Generix</a> </li>
+        
+        <li id="liUltimoLink"><a href="https://www.algorix.com/languages/pt/PoliticaPrivacidade.aspx" id="_ctl1_aPolitica" target="_blank">Política de Privacidade</a> </li>
+    </ul>
+</div>
+<div id="divRodapeOwner">
+    <a href="http://www.algorix.com" id="_ctl1_hRefAlgorix" target="_blank">Desenvolvido
+        por Algorix Sistemas de Informática</a>
+</div>
+</div>
+			
+<script type="text/javascript">
+<!--
+var Page_ValidationSummaries =  new Array(document.getElementById("ValidationSummary"));
+var Page_Validators =  new Array(document.getElementById("ucUsuarioSenha_rfvLoginUsuario"), document.getElementById("ucUsuarioSenha_rfvSenha"), document.getElementById("ucUsuarioSenha_CustomValidatorSenha"), document.getElementById("CustomValidatorPagina"));
+// -->
+</script>
+
+<script language="javascript" type="text/javascript">MostrarMenu();</script>
+<script type="text/javascript">
+<!--
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+// -->
+</script>
+</form>
+		</div>
+	</body>
+</html>
